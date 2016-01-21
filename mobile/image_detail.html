@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/ui_elements.css">
+	<link rel="stylesheet" href="../css/style_mobile.css">
+	<link rel="stylesheet" href="../css/image_detail.css">
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container main-gallary">
+		<div class="empty-div"></div>
+		<div class="side-menu">
+			<div class="menu-wrap row">
+				<div class="search-box col-xs-12">
+					<input class="search-input col-xs-9 col-lg-10 col-md-10"/>
+					<div class="search-btn col-xs-3 col-md-2 col-lg-2">
+						<img src="../images/web/icon_search.png"/>
+					</div>
+				</div>
+				<div class="side-menu-list mylook col-xs-12">
+					<div class="checkbox">
+						<input type="checkbox" id="my-look"/>
+						<label for="my-look"></label>
+					</div>
+					<span>MY LOOK</span>
+				</div>
+				<div class="side-menu-list col-xs-12">
+					<div class="category col-xs-5">
+						<div class="checkbox">
+							<input type="checkbox" id="recent"/>
+							<label for="recent"></label>
+						</div>
+						<span>최신순</span>
+					</div>
+					<div class="category col-xs-5">	
+						<div class="checkbox">
+							<input type="checkbox" id="popular"/>
+							<label for="popular"></label>
+						</div>
+						<span>인기순</span>
+					</div>	
+				</div>
+				<div class="side-menu-list col-xs-12">					<div class="category col-xs-4">
+						<div class="checkbox">
+							<input type="checkbox" id="all"/>
+							<label for="all"></label>
+						</div>
+						<span>ALL</span>
+					</div>	
+					<div class="category col-xs-4">
+						<div class="checkbox">
+							<input type="checkbox" id="male"/>
+							<label for="male"></label>
+						</div>
+						<span>남</span>
+					</div>	
+					<div class="category col-xs-4">	
+						<div class="checkbox">
+							<input type="checkbox" id="female"/>
+							<label for="female"></label>
+						</div>
+						<span>여</span>
+					</div>
+				</div>
+				<div class="side-menu-list clothes col-xs-12">
+					<div class="category col-xs-4">
+						<div class="checkbox">
+							<input type="checkbox" id="top"/>
+							<label for="top"></label>
+						</div>
+						<span>상의</span>
+					</div>
+					<div class="category col-xs-4">	
+						<div class="checkbox">
+							<input type="checkbox" id="bottom"/>
+							<label for="bottom"></label>
+						</div>
+						<span>하의</span>
+					</div>
+					<div class="category col-xs-4">	
+						<div class="checkbox">
+							<input type="checkbox" id="accesory"/>
+							<label for="accesory"></label>
+						</div>
+						<span>악세서리</span>
+					</div>	
+				</div>
+				<div class="palette col-xs-12">
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox white-color">
+							<input type="checkbox" id="white"/>
+							<label for="white"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox red-color">
+							<input type="checkbox" id="red"/>
+							<label for="red"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox orange-color">
+							<input type="checkbox" id="orange"/>
+							<label for="orange"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox yellow-color">
+							<input type="checkbox" id="yellow"/>
+							<label for="yellow"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox brown-color">
+							<input type="checkbox" id="brown"/>
+							<label for="brown"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox pink-color">
+							<input type="checkbox" id="pink"/>
+							<label for="pink"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox green-color">
+							<input type="checkbox" id="green"/>
+							<label for="green"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox blue-color">
+							<input type="checkbox" id="blue"/>
+							<label for="blue"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox purple-color">
+							<input type="checkbox" id="purple"/>
+							<label for="purple"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox white-color">
+							<input type="checkbox" id="white2"/>
+							<label for="white2"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox gray-color">
+							<input type="checkbox" id="gray"/>
+							<label for="gray"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox black-color">
+							<input type="checkbox" id="black"/>
+							<label for="black"></label>
+						</div>
+					</div>
+				</div>
+				<div class="go-btn col-xs-12">
+					<button>GO</button>
+				</div>
+				<div class="register col-xs-12">
+					<span class="reg-btn log col-xs-6">로그인</span>
+					<span class="reg-btn col-xs-6">회원가입</span>
+				</div>
+			</div>
+		</div>
+		<div class="row content-images">
+			<div class="logo-head col-xs-12">
+				<img class="hamburger" src="../images/web/hamburger.png"> 
+				<img class="logo" src="../images/mobile/logo.png"/>
+				<div class="sign">
+					<span class="login">로그인</span>&nbsp;&nbsp;; |&nbsp;&nbsp;
+					<span class="sign-up">회원가입</span>
+				</div>
+			</div>
+			<div class="detail col-xs-12">
+				<div class="main-image col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<img class="image-block" src="../images/web/photo_small.png"/>
+				</div>
+				<div class="image-info col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<div class="detail-info looktiquer col-xs-9">
+						LOOKTIQUER
+					</div>
+					<div class="detail-info profile col-xs-9">
+						<div class="name">김나영</div>
+						<div class="occupation">프리랜서 디자인</div>
+					</div>
+					<div class="detail-info info-profile col-xs-9">
+						<ul class="col-xs-12">
+							<li class="proile like col-xs-3">
+								<div class="content">19,800</div>
+								<div class="type">
+									
+								</div>
+							</li>
+							<li class="proile instagram col-xs-5">
+								<div class="content">nayong_keem</div>
+								<div class="type instagram">
+									Instagram
+								</div>
+							</li>
+							<li class="proile instagram col-xs-4">
+								<div class="content">TEDLIKE</div>
+								<div class="type job">
+									Protographer
+								</div>
+							</li>
+						</ul>	
+					</div>
+				</div>
+				<div class="catalog col-xs-12 ">
+					<div class="image-clothes col-xs-12">
+						<ul class="col-xs-12">
+							<li class="left-clothes col-xs-6">
+								<img class="image-clothes" src="../images/web/popup/clothes.png"/>
+								<div class="clothes-info">
+									<div class="info-type">
+										LOOKTIQUER's PICK
+									</div>
+									<div class="brand">
+										[ROTHCO]
+									</div>
+									<div class="model-no">
+										ROTHCO BOOT 5257
+									</div>
+									<div class="price">
+										324,000 won
+									</div>
+								</div>
+							</li>
+							<li class="right-clothes col-xs-6">
+								<img class="image-clothes" src="../images/web/popup/clothes.png"/>
+								<div class="clothes-info">
+									<div class="info-type">
+										LOOKTIQUER's PICK
+									</div>
+									<div class="brand">
+										[ROTHCO]
+									</div>
+									<div class="model-no">
+										ROTHCO BOOT 5257
+									</div>
+									<div class="price">
+										324,000 won
+									</div>
+								</div>
+							</li>
+							<li class="left-clothes col-xs-6">
+								<img class="image-clothes" src="../images/web/popup/clothes.png"/>
+								<div class="clothes-info">
+									<div class="info-type">
+										LOOKTIQUER's PICK
+									</div>
+									<div class="brand">
+										[ROTHCO]
+									</div>
+									<div class="model-no">
+										ROTHCO BOOT 5257
+									</div>
+									<div class="price">
+										324,000 won
+									</div>
+								</div>
+							</li>
+							<li class="right-clothes col-xs-6">
+								<img class="image-clothes" src="../images/web/popup/clothes.png"/>
+								<div class="clothes-info">
+									<div class="info-type">
+										LOOKTIQUER's PICK
+									</div>
+									<div class="brand">
+										[ROTHCO]
+									</div>
+									<div class="model-no">
+										ROTHCO BOOT 5257
+									</div>
+									<div class="price">
+										324,000 won
+									</div>
+								</div>
+							</li>
+							<li class="left-clothes col-xs-6">
+								<img class="image-clothes" src="../images/web/popup/clothes.png"/>
+								<div class="clothes-info">
+									<div class="info-type">
+										LOOKTIQUER's PICK
+									</div>
+									<div class="brand">
+										[ROTHCO]
+									</div>
+									<div class="model-no">
+										ROTHCO BOOT 5257
+									</div>
+									<div class="price">
+										324,000 won
+									</div>
+								</div>
+							</li>
+							<li class="right-clothes col-xs-6">
+								<img class="image-clothes" src="../images/web/popup/clothes.png"/>
+								<div class="clothes-info">
+									<div class="info-type">
+										LOOKTIQUER's PICK
+									</div>
+									<div class="brand">
+										[ROTHCO]
+									</div>
+									<div class="model-no">
+										ROTHCO BOOT 5257
+									</div>
+									<div class="price">
+										324,000 won
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="comment col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					
+				</div>
+				<div class="image-list col-xs-12 col-md-12 col-lg-12">
+					<ul class="images col-xs-12 col-md-12 col-lg-12 ">
+						<li class="col-xs-4">
+							<img class="image-block" src="../images/web/photo_small.png"/>
+						</li>
+						<li class="col-xs-4">
+							<img class="image-block" src="../images/web/photo_small.png"/>
+						</li>
+						<li class="col-xs-4">
+							<img class="image-block" src="../images/web/photo_small.png"/>
+						</li>
+						<li class="col-xs-4">
+							<img class="image-block" src="../images/web/photo_small.png"/>
+						</li>
+						<li class="col-xs-4">
+							<img class="image-block" src="../images/web/photo_small.png"/>
+						</li>
+						<li class="col-xs-4">
+							<img class="image-block" src="../images/web/photo_small.png"/>
+						</li>
+						<li class="col-xs-4">
+							<img class="image-block" src="../images/web/photo_small.png"/>
+						</li>
+					</ul>
+				</div>				
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>
+<script>
+$(function(){
+	$(".hamburger").on('click', function(){
+		$(".side-menu").animate({left: "0px"});
+		$(".empty-div").show();
+	});
+
+	$(".empty-div").on('click', function(){
+		$(".side-menu").animate({left: "-250px"});
+		$(".empty-div").hide();
+	});
+})
+</script>

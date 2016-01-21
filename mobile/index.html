@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/ui_elements.css">
+	<link rel="stylesheet" href="../css/style_mobile.css">
+	<link rel="stylesheet" href="../css/detail_modal.css">
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container main-gallary">
+		<div class="empty-div"></div>
+		<div class="side-menu">
+			<div class="menu-wrap row">
+				<div class="search-box col-xs-12">
+					<input class="search-input col-xs-9 col-lg-10 col-md-10"/>
+					<div class="search-btn col-xs-3 col-md-2 col-lg-2">
+						<img src="../images/web/icon_search.png"/>
+					</div>
+				</div>
+				<div class="side-menu-list mylook col-xs-12">
+					<div class="checkbox">
+						<input type="checkbox" id="my-look"/>
+						<label for="my-look"></label>
+					</div>
+					<span>MY LOOK</span>
+				</div>
+				<div class="side-menu-list col-xs-12">
+					<div class="category col-xs-5">
+						<div class="checkbox">
+							<input type="checkbox" id="recent"/>
+							<label for="recent"></label>
+						</div>
+						<span>최신순</span>
+					</div>
+					<div class="category col-xs-5">	
+						<div class="checkbox">
+							<input type="checkbox" id="popular"/>
+							<label for="popular"></label>
+						</div>
+						<span>인기순</span>
+					</div>	
+				</div>
+				<div class="side-menu-list col-xs-12">					<div class="category col-xs-4">
+						<div class="checkbox">
+							<input type="checkbox" id="all"/>
+							<label for="all"></label>
+						</div>
+						<span>ALL</span>
+					</div>	
+					<div class="category col-xs-4">
+						<div class="checkbox">
+							<input type="checkbox" id="male"/>
+							<label for="male"></label>
+						</div>
+						<span>남</span>
+					</div>	
+					<div class="category col-xs-4">	
+						<div class="checkbox">
+							<input type="checkbox" id="female"/>
+							<label for="female"></label>
+						</div>
+						<span>여</span>
+					</div>
+				</div>
+				<div class="side-menu-list clothes col-xs-12">
+					<div class="category col-xs-4">
+						<div class="checkbox">
+							<input type="checkbox" id="top"/>
+							<label for="top"></label>
+						</div>
+						<span>상의</span>
+					</div>
+					<div class="category col-xs-4">	
+						<div class="checkbox">
+							<input type="checkbox" id="bottom"/>
+							<label for="bottom"></label>
+						</div>
+						<span>하의</span>
+					</div>
+					<div class="category col-xs-4">	
+						<div class="checkbox">
+							<input type="checkbox" id="accesory"/>
+							<label for="accesory"></label>
+						</div>
+						<span>악세서리</span>
+					</div>	
+				</div>
+				<div class="palette col-xs-12">
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox white-color">
+							<input type="checkbox" id="white"/>
+							<label for="white"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox red-color">
+							<input type="checkbox" id="red"/>
+							<label for="red"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox orange-color">
+							<input type="checkbox" id="orange"/>
+							<label for="orange"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox yellow-color">
+							<input type="checkbox" id="yellow"/>
+							<label for="yellow"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox brown-color">
+							<input type="checkbox" id="brown"/>
+							<label for="brown"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox pink-color">
+							<input type="checkbox" id="pink"/>
+							<label for="pink"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox green-color">
+							<input type="checkbox" id="green"/>
+							<label for="green"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox blue-color">
+							<input type="checkbox" id="blue"/>
+							<label for="blue"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox purple-color">
+							<input type="checkbox" id="purple"/>
+							<label for="purple"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox white-color">
+							<input type="checkbox" id="white2"/>
+							<label for="white2"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox gray-color">
+							<input type="checkbox" id="gray"/>
+							<label for="gray"></label>
+						</div>
+					</div>
+					<div class="checkbox-wrap col-xs-3">
+						<div class="checkbox black-color">
+							<input type="checkbox" id="black"/>
+							<label for="black"></label>
+						</div>
+					</div>
+				</div>
+				<div class="go-btn col-xs-12">
+					<button>GO</button>
+				</div>
+				<div class="register col-xs-12">
+					<span class="reg-btn log col-xs-6">로그인</span>
+					<span class="reg-btn col-xs-6">회원가입</span>
+				</div>
+			</div>
+		</div>
+		<div class="row content-images">
+			<div class="logo-head col-xs-12">
+				<img class="hamburger" src="../images/web/hamburger.png"> 
+				<img class="logo" src="../images/mobile/logo.png"/>
+				<div class="sign">
+					<span class="login">로그인</span>&nbsp;&nbsp; |&nbsp;&nbsp;
+					<span class="sign-up">회원가입</span>
+				</div>
+			</div>
+			<div class="image-gallary col-xs-12 col-md-12 col-lg-12">
+				<ul class="images col-xs-12 col-md-12 col-lg-12 ">
+					<li class="col-xs-12">
+						<img class="image-block" src="../images/web/photo_small.png"/>
+					</li>
+					<li class="col-xs-12">
+						<img class="image-block" src="../images/web/photo_small.png"/>
+					</li>
+					<li class="col-xs-12">
+						<img class="image-block" src="../images/web/photo_small.png"/>
+					</li>
+					<li class="col-xs-12">
+						<img class="image-block" src="../images/web/photo_small.png"/>
+					</li>
+					<li class="col-xs-12">
+						<img class="image-block" src="../images/web/photo_small.png"/>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>
+<script>
+$(function(){
+	$(".hamburger").on('click', function(){
+		$(".side-menu").animate({left: "0px"});
+		$(".empty-div").show();
+	});
+
+	$(".empty-div").on('click', function(){
+		$(".side-menu").animate({left: "-250px"});
+		$(".empty-div").hide();
+	});
+})
+</script>

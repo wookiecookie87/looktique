@@ -1,0 +1,246 @@
+.detail-modal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 4;
+	display: none;
+	background-color: rgba(0,0,0,0.7);
+	margin: 0;
+
+}
+
+.detail {
+	width: 60%;
+	margin: 0 auto;
+	background-color: #fff; 
+}
+
+.main-image {
+	position: relative;
+	padding: 0;
+
+}
+
+.detail {
+	padding: 0;
+}
+
+.image-list {
+	padding: 0;
+	background: #fff;
+}
+
+.image-info {
+	position: relative;
+	padding: 20px 0;
+	text-align: center;
+	letter-spacing: 2px;
+	background-color: #Fff
+}
+
+.looktiquer{
+	height: 38px;
+	border-bottom: 1px solid #e6e7e8;
+	color: #7e8384;
+}
+
+.detail-info.profile {
+	padding: 20px 0;
+	border-bottom: 1px solid #e6e7e8;	
+}
+
+.detail-info {
+	padding: 0;
+	float: none;
+	margin: 0 auto;
+}
+
+.name {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 3px
+}
+
+.detail-info.info-profile {
+	padding: 20px 0;
+}
+
+.detail-info ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.content {
+	font-weight: 700;
+	font-size: 13px;
+	margin-bottom: 4px;
+}
+
+.detail-info li {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0;
+	position: relative;
+}
+
+.type {
+	color: #a7a8a9;
+	font-size: 12px;
+}
+
+.catalog {
+	padding: 0;
+	background-color: #e6e7e8;
+}
+
+.image-clothes {
+	float: none;
+	margin: 0 auto;
+}
+
+.image-clothes ul {
+	padding: 10px 0;
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+.image-clothes li {
+	padding-top: 3px;
+	padding-bottom: 3px;
+} 
+
+.left-clothes {
+	padding-right: 3px;
+	padding-left: 0;
+}
+
+.right-clothes {
+	padding-left: 3px;
+	padding-right: 0;
+}
+
+.ul-wrap {
+    width: 354px;
+    margin: 0 auto;
+}
+
+.x-btn {
+	width: 20px;
+	height: 20px;
+	background: url(../images/web/popup/btn_close.png) no-repeat;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.clothes-info {
+	text-align: center;
+	padding: 15px 0 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	height: 100%;
+	padding: 0;
+	visibility: hidden;
+}
+
+.clothes-box {
+	width: 175px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.wrap:hover .clothes-info {
+	visibility: visible;
+}
+
+.right-clothes .clothes-info {
+	background-color: rgba(0,157,122,0.8);
+	/*background: #009d7a;
+	opacity: 0.9;*/
+}
+
+.left-clothes .clothes-info {
+	background-color: rgba(198, 147, 64, 0.8);
+/*	background: #c69340;
+	opacity: 0.8;*/
+}
+
+.info-type {
+	font-size: 12px;
+	margin-bottom: 1px;
+}
+
+.brand, .model-no {
+	font-size: 10px;
+	margin-bottom: 0px;
+}
+
+.price {
+	font-weight: 400;
+	font-size: 13px;
+	margin-top: 1px;
+}
+
+.info-wrap {
+	margin-top: 90px;
+}
+
+.star {
+	width: 17px;
+	height: 17px;
+	background: url(../images/star_btn/star_off.png) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	z-index:3;
+	cursor: pointer;
+}
+
+.star.clicked {
+	background: url(../images/star_btn/star_on.png) no-repeat;
+	background-size: 100%;
+}
+
+.wrap {
+	padding: 0;
+}
+
+@media (max-width: 1300px){
+	.ul-wrap {
+	    width: 284px;
+	    margin: 0 auto;
+	}
+
+	.clothes-box {
+		width: 140px;
+	}
+
+	.info-type {
+		font-size: 11px;
+		margin-bottom: 2px;
+	}
+
+	.brand, .model-no {
+		font-size: 8px;
+		margin-bottom: 2px;
+	}
+
+	.price {
+		font-weight: 400;
+		font-size: 12px;
+		margin-top: 3px;
+	}
+
+	.info-wrap {
+		margin-top: 63px;
+	}
+
+}
+
+
+

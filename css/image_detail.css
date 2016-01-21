@@ -1,0 +1,142 @@
+.detail-modal {
+	z-index: 4;
+}
+
+.detail {
+	/*width: 60%;*/
+	float: none;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #fff; 
+}
+
+.main-image {
+	padding: 0;
+}
+
+.detail {
+	padding: 0;
+}
+
+.image-list {
+	padding: 0;
+}
+
+.image-info {
+	padding: 20px 0;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.looktiquer{
+	height: 30px;
+	font-size: 12px;
+	border-bottom: 1px solid #e6e7e8;
+	color: #7e8384;
+}
+
+.detail-info.profile {
+	padding: 15px 0;
+	border-bottom: 1px solid #e6e7e8;	
+}
+
+.detail-info {
+	padding: 0;
+	float: none;
+	margin: 0 auto;
+	letter-spacing: 1px;
+}
+
+.name {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 3px
+}
+
+.detail-info.info-profile {
+	padding: 15px 0;
+}
+
+.detail-info ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.content {
+	font-weight: 700;
+	font-size: 13px;
+	margin-bottom: 4px;
+}
+
+.detail-info li {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0;
+}
+
+.type {
+	color: #a7a8a9;
+	font-size: 12px;
+}
+
+.catalog {
+	padding: 0;
+}
+
+.image-clothes {
+	float: none;
+	margin: 0 auto;
+}
+
+.image-clothes ul {
+	padding: 10px 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.image-clothes li {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	position: relative;
+} 
+
+.left-clothes {
+	padding-right: 6px;
+	padding-left: 0;
+}
+
+.image-clothes {
+	border: solid 1px #e6e7e8;
+	width: 100%;
+}
+
+.right-clothes {
+	padding-left: 6px;
+	padding-right: 0;
+}
+
+.clothes-info {
+	text-align: center;
+	padding: 15px 0 20px;
+}
+
+.right-clothes .info-type {
+	font-size: 13px;
+	margin-bottom: 10px;
+	color: #009d7a;
+}
+
+.left-clothes .info-type {
+	font-size: 13px;
+	margin-bottom: 10px;
+	color: #ffc300;
+}
+
+.brand .model-no {
+	font-size: 12px;
+}
+
+.price {
+	font-weight: 600;
+}
